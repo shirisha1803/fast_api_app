@@ -4,8 +4,8 @@ import json
 from bs4 import BeautifulSoup
 from fastapi import HTTPException
 from typing import Optional, List
-from .config import settings
-from . import models
+from config import settings
+import models
 # from .models import CompanyInfo # <-- THIS LINE HAS BEEN REMOVED
 
 # Configure the Gemini API
