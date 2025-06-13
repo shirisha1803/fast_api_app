@@ -7,3 +7,5 @@ python-dotenv==1.0.1
 google-generativeai==0.5.4
 slowapi==0.1.8
 limits==3.7.0
+pydantic-settings>=2.0
+
