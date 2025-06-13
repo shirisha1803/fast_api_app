@@ -1,0 +1,43 @@
+Execution & Testing Guide
+
+This guide provides step-by-step instructions to set up, run, and test the "Advanced FastAPI AI Agent" on a local machine. Please follow these steps in order.
+
+Phase 1: Environment Setup
+
+This phase prepares your computer with all the necessary software and configurations.
+
+Step 1: Install Prerequisites
+
+Ensure the following software is installed and running on your system.
+
+Python (version 3.10 or newer)
+
+Step 2: Clone the Repository
+
+Open a terminal or PowerShell and clone the project from GitHub.
+git clone https://github.com/shirisha1803/fast_api_app/
+
+Step 3: Install Dependencies
+
+Install all the required Python packages using the requirements.txt file.
+
+pip install -r requirements.txt IGNORE_WHEN_COPYING_START content_copy download Use code with caution. Bash IGNORE_WHEN_COPYING_END 
+
+Step 4: Configure Environment Variables
+
+The application requires a .env file for secret keys.
+
+In the root of the project folder, create a new file named .env.
+
+Copy the entire block below and paste it into the .env file.
+
+Replace "your_super_secret_password_here" with a secret password of your own invention.
+APP_SECRET_KEY="your_super_secret_password_here"
+GEMINI_API_KEY="your_actual_gemini_api_key"
+GEMINI_MODEL_NAME="gemini-1.5-flash"
+
+Phase 2: Testing the API Endpoints
+
+For this phase, open a new, separate terminal or PowerShell window. The following commands use PowerShell syntax for Windows.
+
+Step 9: Test the /analyze Endpoint
