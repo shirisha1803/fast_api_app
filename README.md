@@ -5,15 +5,7 @@ A robust and scalable FastAPI-based application designed as an AI-driven agent f
 Architecture
 ![Architecture](https://github.com/user-attachments/assets/3b6ce968-d26c-41a1-bd24-72cd3160a6ff)
 
-fast_api_app/
-├── app/
-│ ├── main.py # FastAPI app initialization
-│ ├── api.py # API routes
-│ ├── utils/
-│ │ ├── scraper.py # Web scraping logic
-│ │ └── ai_engine.py # AI processing logic
-├── .env # Environment config
-├── requirements.txt # Python dependencies
+
 
 Technology Justification
 
@@ -44,6 +36,7 @@ curl -X POST "http://localhost:8000/analyze" \
          }'
 
 Conversation with AI
+
 curl -X POST "http://localhost:8000/chat" \
      -H "Authorization: Bearer YOUR_SECRET_KEY" \
      -H "Content-Type: application/json" \
