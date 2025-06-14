@@ -5,7 +5,7 @@ A robust and scalable FastAPI-based application designed as an AI-driven agent f
 Deployed URL : https://web-production-6696.up.railway.app/docs
 
 Architecture
-![Architecture](https://github.com/user-attachments/assets/3b6ce968-d26c-41a1-bd24-72cd3160a6ff) width="400"
+![Architecture](https://github.com/user-attachments/assets/3b6ce968-d26c-41a1-bd24-72cd3160a6ff) 
 
 
 
@@ -39,7 +39,7 @@ Setup & Installation
 3. Set up environment variables
 
    cp .env.example .env
-# Edit .env with your configuration
+
 
 4. Run the application
 
@@ -81,11 +81,16 @@ Deployment
 
 The application is configured for deployment on Railway.com. 
 
-Create a new Railway account
-Connect your GitHub repository
-Set the required environment variables:
-API_SECRET_KEY
-GEMINI_API_KEY
-GEMINI_MODEL_NAME
+1. Create a new Railway account
+   
+2. Connect your GitHub repository
+ 
+3. Set the required environment variables:
+   
+   API_SECRET_KEY
+   
+   GEMINI_API_KEY
+   
+   GEMINI_MODEL_NAME
 
 
