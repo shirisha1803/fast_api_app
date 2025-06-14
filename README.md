@@ -54,7 +54,7 @@ curl -X POST "http://localhost:8000/analyze" \
      -H "Authorization: Bearer YOUR_SECRET_KEY" \
      -H "Content-Type: application/json" \
      -d '{
-           "url": "https://example.com",
+           "url": "https://www.geeksforgeeks.org/",
            "questions": [
              "What is their primary business model?",
              "Who is their target market?"
@@ -67,7 +67,7 @@ curl -X POST "http://localhost:8000/chat" \
      -H "Authorization: Bearer YOUR_SECRET_KEY" \
      -H "Content-Type: application/json" \
      -d '{
-           "url": "https://example.com",
+           "url": "https://www.geeksforgeeks.org/",
            "query": "What are their key features?",
            "conversation_history": [
              {
