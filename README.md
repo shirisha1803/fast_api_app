@@ -2,8 +2,10 @@ FASTAPI AI for Website Intelligence
 
 A robust and scalable FastAPI-based application designed as an AI-driven agent for extracting, interpreting, and summarizing critical business information from company websites. By integrating modern web scraping methodologies with powerful language models, this system intelligently analyzes homepage content and delivers organized, real-time insights, facilitating interactive, question-answering capabilities about businesses.
 
+Deployed URL : https://web-production-6696.up.railway.app/docs
+
 Architecture
-![Architecture](https://github.com/user-attachments/assets/3b6ce968-d26c-41a1-bd24-72cd3160a6ff)
+![Architecture](https://github.com/user-attachments/assets/3b6ce968-d26c-41a1-bd24-72cd3160a6ff) width="400"
 
 
 
@@ -19,6 +21,30 @@ Technology Justification
 | **Render**            | Cloud deployment platform           | Easy CI/CD with GitHub integration, supports FastAPI natively                   |
 | **dotenv**            | Environment variable management     | Keeps sensitive data like API keys secure and manageable                        |
 | **Uvicorn**           | ASGI server for running FastAPI     | Fast, lightweight, and production-ready ASGI server                             |
+
+
+
+IDE used VSCode
+
+Setup & Installation
+
+1. Clone the repository
+
+   git clone https://github.com/shirisha1803/fast_api_app/
+
+2. Install dependencies
+
+   pip install -r requirements.txt
+
+3. Set up environment variables
+
+   cp .env.example .env
+# Edit .env with your configuration
+
+4. Run the application
+
+   uvicorn app.main:app --reload --port 
+
 
 API Usage Examples
 
@@ -50,5 +76,16 @@ curl -X POST "http://localhost:8000/chat" \
              }
            ]
          }'
+
+Deployment
+
+The application is configured for deployment on Railway.com. 
+
+Create a new Railway account
+Connect your GitHub repository
+Set the required environment variables:
+API_SECRET_KEY
+GEMINI_API_KEY
+GEMINI_MODEL_NAME
 
 
