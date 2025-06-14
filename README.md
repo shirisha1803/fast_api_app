@@ -1,15 +1,15 @@
-FASTAPI AI for Website Intelligence
+**FASTAPI AI for Website Intelligence**
 
 A robust and scalable FastAPI-based application designed as an AI-driven agent for extracting, interpreting, and summarizing critical business information from company websites. By integrating modern web scraping methodologies with powerful language models, this system intelligently analyzes homepage content and delivers organized, real-time insights, facilitating interactive, question-answering capabilities about businesses.
 
-Deployed URL : https://web-production-6696.up.railway.app/docs
+**Deployed**: https://web-production-6696.up.railway.app/docs
 
-Architecture
+**Architecture**
 ![Architecture](https://github.com/user-attachments/assets/3b6ce968-d26c-41a1-bd24-72cd3160a6ff) 
 
 
 
-Technology Justification
+**Technology Justification**
 
 | Technology            | Role in Project                     | Justification                                                                   |
 | --------------------- | ----------------------------------- | ------------------------------------------------------------------------------- |
@@ -24,9 +24,9 @@ Technology Justification
 
 
 
-IDE used VSCode
+**[IDE used VSCode]**
 
-Setup & Installation
+**Setup & Installation**
 
 1. Clone the repository
 
@@ -46,9 +46,9 @@ Setup & Installation
    uvicorn app.main:app --reload --port 
 
 
-API Usage Examples
+**API Usage Examples**
 
-Website Analysis
+**Website Analysis**
 
 curl -X POST "http://localhost:8000/analyze" \
      -H "Authorization: Bearer YOUR_SECRET_KEY" \
@@ -61,7 +61,7 @@ curl -X POST "http://localhost:8000/analyze" \
            ]
          }'
 
-Conversation with AI
+**Conversation with AI**
 
 curl -X POST "http://localhost:8000/chat" \
      -H "Authorization: Bearer YOUR_SECRET_KEY" \
@@ -77,9 +77,9 @@ curl -X POST "http://localhost:8000/chat" \
            ]
          }'
 
-Deployment
+**Deployment**
 
-The application is configured for deployment on Railway.com. 
+**The application is configured for deployment on Railway.c**om. 
 
 1. Create a new Railway account
    
